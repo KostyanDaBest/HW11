@@ -33,7 +33,6 @@ public class Zadanie6 {
         }
     }
 
-
     private static boolean Palindrome(String word) {
         String reversedWord = new StringBuilder(word).reverse().toString();
         return word.equalsIgnoreCase(reversedWord);
